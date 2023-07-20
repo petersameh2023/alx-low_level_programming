@@ -1,7 +1,13 @@
-#include <stdio.h>
+#include "stdio.h"
 
-void positive_or_negative(int i);
+/**
+* positive_or_negative - checks if integer is positive, negative, or zero
+* @n: the integer to check
+*
+* Return: void
+*/
 
+void positive_or_negative(int n)
 {
 	if (n > 0)
 		printf("%d is positive\n", n);
@@ -10,4 +16,3 @@ void positive_or_negative(int i);
 	else
 		printf("%d is zero\n", n);
 }
-
